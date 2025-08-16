@@ -1,11 +1,22 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Code, Rocket, Zap } from "lucide-react";
+import ecommerceProject from "@/images/project-ecommerce.jpg";
 
 const Hero = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background gradient */}
       <div className="absolute inset-0 gradient-hero"></div>
+      
+      {/* Background image */}
+      <div className="absolute inset-0">
+        <img 
+          src={ecommerceProject} 
+          alt="E-commerce background" 
+          className="w-full h-full object-cover opacity-30"
+        />
+        <div className="absolute inset-0 bg-gradient-to-t from-background via-background/50 to-background/30"></div>
+      </div>
       
       {/* Animated background elements */}
       <div className="absolute inset-0 overflow-hidden">
