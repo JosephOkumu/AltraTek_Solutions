@@ -2,6 +2,12 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { ExternalLink, ArrowRight } from "lucide-react";
 import { useState } from "react";
+import brunoSafaris from "@/images/BrunoSafaris.png";
+import junubin from "@/images/junubin.png";
+import larsfood from "@/images/larsfood.png";
+import afyamawinguni from "@/images/afyamawinguni.png";
+import redginger from "@/images/redginger.png";
+import bigfish from "@/images/bigfish.png";
 import ecommerceProject from "@/images/project-ecommerce.jpg";
 import dashboardProject from "@/images/project-dashboard.jpg";
 import mobileProject from "@/images/project-mobile.jpg";
@@ -12,51 +18,51 @@ const Projects = () => {
   const allProjects = [
     {
       id: 1,
-      title: "E-Commerce Platform",
-      description: "A modern, scalable e-commerce solution with advanced product management, secure payment processing, and real-time inventory tracking. Built with React, Node.js, and integrated with Stripe.",
-      image: ecommerceProject,
+      title: "Safari Booking Platform",
+      description: "A website that enables safari lovers to search for trips in both Kenya and Tanzania, and make their bookings and payments all in one place.",
+      image: brunoSafaris,
       tags: ["React", "Node.js", "Stripe", "MongoDB"],
-      url: "#"
+      url: "https://brunosafaris.com/"
     },
     {
       id: 2,
-      title: "Business Analytics Dashboard",
-      description: "Comprehensive business intelligence platform featuring real-time data visualization, custom reporting, and predictive analytics. Helps companies make data-driven decisions.",
-      image: dashboardProject,
+      title: "Transport and Logistics App",
+      description: "A web application for transport and logistics services provider for businesses across Africa. Get your products delivered to your preferred location.",
+      image: junubin,
       tags: ["Vue.js", "Python", "D3.js", "PostgreSQL"],
-      url: "#"
+      url: "https://junubinlogistics.com/"
     },
     {
       id: 3,
-      title: "Social Mobile App",
-      description: "Cross-platform mobile application for social networking with real-time messaging, media sharing, and advanced privacy controls. Available on iOS and Android.",
-      image: mobileProject,
+      title: "Digital Agency Platform",
+      description: "A website for a digital agency company that offers digital services such as search engine optimization, website design, and company branding.",
+      image: larsfood,
       tags: ["React Native", "Firebase", "Socket.io"],
-      url: "#"
+      url: "https://larscooper.com/"
     },
     {
       id: 4,
       title: "Healthcare Portal",
       description: "Comprehensive healthcare management system for patients and providers with appointment scheduling, medical records, and telehealth capabilities.",
-      image: ecommerceProject,
+      image: afyamawinguni,
       tags: ["Angular", "Spring Boot", "MySQL", "Docker"],
-      url: "#"
+      url: "http://afyamawinguni.com/"
     },
     {
       id: 5,
-      title: "Learning Management System",
-      description: "Interactive platform for online education and course management with video streaming, progress tracking, and assessment tools.",
-      image: dashboardProject,
+      title: "Food Ordering Platform",
+      description: "A tap-to-order platform that enables clients to review the menu and make orders to be delivered to their specified location.",
+      image: redginger,
       tags: ["Next.js", "GraphQL", "Prisma", "Vercel"],
-      url: "#"
+      url: "https://bit.ly/redgingertaptoorder"
     },
     {
       id: 6,
-      title: "Real Estate Platform",
-      description: "Modern real estate marketplace with virtual tours, property analytics, and advanced search capabilities for buyers and sellers.",
-      image: mobileProject,
+      title: "Online Menu Platform",
+      description: "A tap-to-order platform that enables clients to review the menu and make orders to be delivered to their specified location.",
+      image: bigfish,
       tags: ["React", "Python", "Redis", "Mapbox"],
-      url: "#"
+      url: "https://bit.ly/bigfishtaptoorder"
     }
   ];
 
