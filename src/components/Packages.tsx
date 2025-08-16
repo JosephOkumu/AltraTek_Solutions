@@ -49,13 +49,13 @@ const Packages = () => {
               </Table>
               <div className="mt-6 space-y-3 text-sm text-muted-foreground">
                 <div>
-                  <span className="font-medium">Basic:</span> A professional landing page or simple business site with up to 3 pages, responsive design, and contact form integration. <span className="font-semibold">($500)</span>
+                  <span className="font-bold text-foreground">Basic:</span> A professional landing page or simple business site with up to 3 pages, responsive design, and contact form integration. <span className="font-bold text-foreground">($500)</span>
                 </div>
                 <div>
-                  <span className="font-medium">Standard:</span> Multi-page website (up to 6 pages) with custom UI, basic animations, data storage, user login, and SEO optimization. <span className="font-semibold">($1000)</span>
+                  <span className="font-bold text-foreground">Standard:</span> Multi-page website (up to 6 pages) with custom UI, basic animations, data storage, user login, and SEO optimization. <span className="font-bold text-foreground">($1000)</span>
                 </div>
                 <div>
-                  <span className="font-medium">Premium:</span> Full-featured custom website (unlimited pages), user authentication, data storage, AI integration, messaging, and payment integration. <span className="font-semibold">($1800)</span>
+                  <span className="font-bold text-foreground">Premium:</span> Full-featured custom website (unlimited pages), user authentication, data storage, AI integration, messaging, and payment integration. <span className="font-bold text-foreground">($1800)</span>
                 </div>
               </div>
             </CardContent>
@@ -94,13 +94,13 @@ const Packages = () => {
               </Table>
               <div className="mt-6 space-y-3 text-sm text-muted-foreground">
                 <div>
-                  <span className="font-medium">Basic:</span> Simple app with 2-3 core features (e.g., form submission, login, display info). <span className="font-semibold">($2000)</span>
+                  <span className="font-bold text-foreground">Basic:</span> Simple app with 2-3 core features (e.g., form submission, login, display info). <span className="font-bold text-foreground">($2000)</span>
                 </div>
                 <div>
-                  <span className="font-medium">Standard:</span> Full-stack mobile app with backend, multiple screens, data storage, user authentication, Android and iOS (optional). <span className="font-semibold">($3500)</span>
+                  <span className="font-bold text-foreground">Standard:</span> Full-stack mobile app with backend, multiple screens, data storage, user authentication, Android and iOS (optional). <span className="font-bold text-foreground">($3500)</span>
                 </div>
                 <div>
-                  <span className="font-medium">Premium:</span> Advanced app with backend, push notifications, payment integration, real-time updates, and deployment support for both Android and iOS. <span className="font-semibold">($6750)</span>
+                  <span className="font-bold text-foreground">Premium:</span> Advanced app with backend, push notifications, payment integration, real-time updates, and deployment support for both Android and iOS. <span className="font-bold text-foreground">($6750)</span>
                 </div>
               </div>
             </CardContent>
@@ -108,7 +108,7 @@ const Packages = () => {
         </div>
 
         <div className="text-center mt-8">
-          <p className="text-lg font-medium text-foreground">
+          <p className="text-lg font-bold text-foreground">
             • We offer flexible payment options for our services
           </p>
         </div>
