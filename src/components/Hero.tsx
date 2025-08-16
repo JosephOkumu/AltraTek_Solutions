@@ -42,7 +42,7 @@ const Hero = () => {
           </h1>
           
           {/* Subtitle */}
-          <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto animate-fade-in" style={{ animationDelay: '0.4s' }}>
+          <p className="text-xl md:text-2xl text-white font-bold mb-8 max-w-2xl mx-auto animate-fade-in" style={{ animationDelay: '0.4s' }}>
             We transform ideas into exceptional digital experiences. 
             From web applications to mobile solutions, we deliver innovation that drives results.
           </p>
