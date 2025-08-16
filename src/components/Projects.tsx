@@ -42,19 +42,19 @@ const Projects = () => {
     },
     {
       id: 4,
-      title: "Healthcare Portal",
-      description: "Comprehensive healthcare management system for patients and providers with appointment scheduling, medical records, and telehealth capabilities.",
-      image: afyamawinguni,
-      tags: ["Angular", "Spring Boot", "MySQL", "Docker"],
-      url: "http://afyamawinguni.com/"
-    },
-    {
-      id: 5,
       title: "Food Ordering Platform",
       description: "A tap-to-order platform that enables clients to review the menu and make orders to be delivered to their specified location.",
       image: redginger,
       tags: ["Next.js", "GraphQL", "Prisma", "Vercel"],
       url: "https://bit.ly/redgingertaptoorder"
+    },
+    {
+      id: 5,
+      title: "Healthcare Portal",
+      description: "Comprehensive healthcare management system for patients and providers with appointment scheduling, medical records, and telehealth capabilities.",
+      image: afyamawinguni,
+      tags: ["Angular", "Spring Boot", "MySQL", "Docker"],
+      url: "http://afyamawinguni.com/"
     },
     {
       id: 6,
