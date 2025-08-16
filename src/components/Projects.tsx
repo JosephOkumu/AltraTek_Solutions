@@ -48,7 +48,7 @@ const Projects = () => {
     {
       id: 5,
       title: "Healthcare Portal",
-      description: "Comprehensive healthcare management system for patients and providers with appointment scheduling, medical records, and telehealth capabilities.",
+      description: "A healthcare management system for patients and providers with appointment scheduling, medical records, and telehealth capabilities.",
       image: afyamawinguni,
       tags: ["Angular", "Spring Boot", "MySQL", "Docker"],
       url: "http://afyamawinguni.com/"
