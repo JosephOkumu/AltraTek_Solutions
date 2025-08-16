@@ -2,9 +2,9 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { ExternalLink, ArrowRight } from "lucide-react";
 import { useState } from "react";
-import ecommerceProject from "@/assets/project-ecommerce.jpg";
-import dashboardProject from "@/assets/project-dashboard.jpg";
-import mobileProject from "@/assets/project-mobile.jpg";
+import ecommerceProject from "@/images/project-ecommerce.jpg";
+import dashboardProject from "@/images/project-dashboard.jpg";
+import mobileProject from "@/images/project-mobile.jpg";
 
 const Projects = () => {
   const [showAll, setShowAll] = useState(false);
