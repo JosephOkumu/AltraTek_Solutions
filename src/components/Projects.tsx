@@ -1,7 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { ExternalLink, ArrowRight } from "lucide-react";
-import { useState } from "react";
+import { ExternalLink } from "lucide-react";
 import brunoSafaris from "@/images/BrunoSafaris.png";
 import junubin from "@/images/junubin.png";
 import larsfood from "@/images/larsfood.png";
@@ -13,8 +12,6 @@ import dashboardProject from "@/images/project-dashboard.jpg";
 import mobileProject from "@/images/project-mobile.jpg";
 
 const Projects = () => {
-  const [showAll, setShowAll] = useState(false);
-  
   const allProjects = [
     {
       id: 1,
@@ -66,8 +63,6 @@ const Projects = () => {
     }
   ];
 
-  const displayedProjects = showAll ? allProjects : allProjects.slice(0, 3);
-
   return (
     <section className="py-24">
       <div className="container mx-auto px-6">
@@ -81,7 +76,7 @@ const Projects = () => {
         </div>
         
         <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-8">
-          {displayedProjects.map((project, index) => (
+          {allProjects.map((project, index) => (
             <Card 
               key={project.id} 
               className="bg-card/50 backdrop-blur border-border/50 overflow-hidden hover:shadow-elegant transition-all duration-500 group animate-fade-in"
@@ -126,18 +121,6 @@ const Projects = () => {
               </CardContent>
             </Card>
           ))}
-        </div>
-        
-        <div className="text-center mt-16">
-          <Button 
-            variant="outline" 
-            size="lg" 
-            className="border-border/50 hover:bg-surface-hover group"
-            onClick={() => setShowAll(!showAll)}
-          >
-            {showAll ? 'Show Less Projects' : 'View All Projects'}
-            <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
-          </Button>
         </div>
       </div>
     </section>
