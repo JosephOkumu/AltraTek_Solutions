@@ -25,7 +25,7 @@ const Contact = () => {
                 <CardTitle className="text-lg">Email Us</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-muted-foreground">contact@altratek.com</p>
+                <p className="text-muted-foreground">altratekitsolutions@gmail.com</p>
               </CardContent>
             </Card>
             
@@ -37,7 +37,7 @@ const Contact = () => {
                 <CardTitle className="text-lg">Call Us</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-muted-foreground">+1 (555) 123-4567</p>
+                <p className="text-muted-foreground">+1(443)918-7556</p>
               </CardContent>
             </Card>
           </div>
