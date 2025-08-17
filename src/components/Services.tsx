@@ -1,6 +1,6 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
-import { Globe, Smartphone, Database, Cloud, Palette, Settings } from "lucide-react";
+import { Globe, Smartphone, Shield, Cloud, Brain, Users } from "lucide-react";
 
 const Services = () => {
   const services = [
@@ -15,9 +15,9 @@ const Services = () => {
       description: "Native and cross-platform mobile applications that deliver exceptional user experiences on iOS and Android."
     },
     {
-      icon: Database,
-      title: "Backend Systems",
-      description: "Robust server-side solutions, APIs, and database architectures that power your applications efficiently."
+      icon: Shield,
+      title: "Cybersecurity & Risk Management",
+      description: "Security solutions including security audits, penetration testing, endpoint protection, and staff training."
     },
     {
       icon: Cloud,
@@ -25,14 +25,14 @@ const Services = () => {
       description: "Seamless cloud deployment and integration services using AWS, Azure, and other leading platforms."
     },
     {
-      icon: Palette,
-      title: "UI/UX Design",
-      description: "Beautiful, intuitive interfaces designed to enhance user engagement and drive conversions."
+      icon: Brain,
+      title: "AI & Data Solutions",
+      description: "Intelligent solutions including chatbots, predictive analytics, automation, and tools for smarter decision-making."
     },
     {
-      icon: Settings,
-      title: "Maintenance & Support",
-      description: "Ongoing technical support, updates, and optimization to keep your systems running smoothly."
+      icon: Users,
+      title: "IT Consultation Services",
+      description: "Expert technology consulting to help you make informed decisions, optimize your IT infrastructure."
     }
   ];
 
